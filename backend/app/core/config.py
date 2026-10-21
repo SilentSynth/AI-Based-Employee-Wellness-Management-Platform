@@ -2,7 +2,7 @@ import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "AuraWellness — Employee Sentiment & Wellness Platform"
+    PROJECT_NAME: str = "MoodMentor — Employee Sentiment & Wellness Platform"
     API_V1_STR: str = "/api/v1"
     SECRET_KEY: str = os.getenv("SECRET_KEY", "super-secret-jwt-key-for-wellness-m1-production")
     ALGORITHM: str = "HS256"

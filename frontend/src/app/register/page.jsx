@@ -57,7 +57,7 @@ export default function RegisterPage() {
               <Heart size={24} color="#34d399" />
             </div>
             <h1 style={{ fontSize: "1.85rem", fontWeight: 800, letterSpacing: "-0.02em", marginBottom: "0.4rem" }}>
-              Join AuraWellness
+              Join MoodMentor
             </h1>
             <p style={{ color: "var(--text-muted)", fontSize: "0.92rem" }}>
               A supportive, confidential space for your everyday well-being

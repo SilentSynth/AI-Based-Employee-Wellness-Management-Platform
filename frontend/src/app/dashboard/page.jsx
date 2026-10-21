@@ -90,8 +90,8 @@ export default function DashboardPage() {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
       const ext = file.name.split(".").pop().toLowerCase();
-      if (!["txt", "csv", "pdf"].includes(ext)) {
-        setErrorMessage("Please select a supported document (.txt, .csv, or .pdf).");
+      if (!["txt", "csv", "pdf", "xlsx", "xls"].includes(ext)) {
+        setErrorMessage("Please select a supported document (.xlsx, .csv, .pdf, or .txt).");
         setSelectedFile(null);
         return;
       }
@@ -347,7 +347,7 @@ export default function DashboardPage() {
                     ref={fileInputRef}
                     id="file-upload-input"
                     type="file"
-                    accept=".txt,.csv,.pdf"
+                    accept=".xlsx, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, .csv, .txt, .pdf"
                     style={{ display: "none" }}
                     onChange={handleFileChange}
                   />
@@ -369,7 +369,7 @@ export default function DashboardPage() {
                         Click to select or drag and drop reflection notes
                       </div>
                       <div style={{ fontSize: "0.88rem", color: "var(--text-muted)" }}>
-                        Supports <strong>.txt</strong> notes, <strong>.csv</strong> survey tables, and <strong>.pdf</strong> documents
+                        Supports <strong>.xlsx / .csv</strong> spreadsheets, <strong>.txt</strong> notes, and <strong>.pdf</strong> documents
                       </div>
                     </div>
                   )}
@@ -377,10 +377,13 @@ export default function DashboardPage() {
 
                 <div style={{ display: "flex", gap: "16px", justifyContent: "center", marginBottom: "1.8rem", flexWrap: "wrap" }}>
                   <span style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.82rem", color: "var(--text-muted)" }}>
-                    <FileText size={15} color="#818cf8" /> Plain Text (.txt)
+                    <FileSpreadsheet size={15} color="#38bdf8" /> Excel Sheets (.xlsx)
                   </span>
                   <span style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.82rem", color: "var(--text-muted)" }}>
                     <FileSpreadsheet size={15} color="#34d399" /> Survey Exports (.csv)
+                  </span>
+                  <span style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.82rem", color: "var(--text-muted)" }}>
+                    <FileText size={15} color="#818cf8" /> Plain Text (.txt)
                   </span>
                   <span style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.82rem", color: "var(--text-muted)" }}>
                     <FileCode size={15} color="#fb7185" /> Summaries (.pdf)

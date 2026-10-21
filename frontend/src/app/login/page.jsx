@@ -59,7 +59,7 @@ export default function LoginPage() {
               Welcome Back
             </h1>
             <p style={{ color: "var(--text-muted)", fontSize: "0.92rem" }}>
-              Sign in to your private AuraWellness space
+              Sign in to your private MoodMentor space
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function LoginPage() {
           </form>
 
           <div style={{ marginTop: "2rem", textAlign: "center", fontSize: "0.88rem", color: "var(--text-muted)" }}>
-            New to AuraWellness?{" "}
+            New to MoodMentor?{" "}
             <Link href="/register" id="link-to-register" style={{ color: "#818cf8", fontWeight: 600 }}>
               Create an account
             </Link>

@@ -55,7 +55,7 @@ export default function Navbar() {
           </div>
           <div>
             <span style={{ fontWeight: 800, fontSize: "1.25rem", letterSpacing: "-0.02em", color: "#ffffff" }}>
-              Aura<span style={{ color: "#818cf8" }}>Wellness</span>
+              Mood<span style={{ color: "#818cf8" }}>Mentor</span>
             </span>
           </div>
         </Link>

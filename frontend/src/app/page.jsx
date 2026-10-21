@@ -223,7 +223,7 @@ export default function LandingPage() {
                 Simple Workflow
               </div>
               <h2 style={{ fontSize: "2.1rem", fontWeight: 800, marginBottom: "0.8rem", letterSpacing: "-0.02em" }}>
-                How AuraWellness Works
+                How MoodMentor Works
               </h2>
               <p style={{ color: "var(--text-muted)", fontSize: "1rem", maxWidth: "540px", margin: "0 auto" }}>
                 Three intuitive steps to foster emotional awareness and mutual workplace support.
@@ -278,7 +278,7 @@ export default function LandingPage() {
                   Your well-being data belongs to you.
                 </h3>
                 <p style={{ color: "var(--text-muted)", fontSize: "0.96rem", lineHeight: 1.7, marginBottom: "1.5rem" }}>
-                  AuraWellness is designed to support individuals, not monitor them. Submissions are encrypted, reflections are private, and aggregated insights are used solely to foster organizational empathy and balanced workloads.
+                  MoodMentor is designed to support individuals, not monitor them. Submissions are encrypted, reflections are private, and aggregated insights are used solely to foster organizational empathy and balanced workloads.
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "0.9rem", color: "#e2e8f0" }}>
@@ -309,7 +309,7 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <blockquote style={{ fontSize: "0.94rem", color: "var(--text-muted)", fontStyle: "italic", lineHeight: 1.7, borderLeft: "3px solid #818cf8", paddingLeft: "1rem" }}>
-                  &ldquo;A healthy organization begins with genuine listening. AuraWellness provides a quiet sanctuary where voices can be heard and respected without fear of evaluation.&rdquo;
+                  &ldquo;A healthy organization begins with genuine listening. MoodMentor provides a quiet sanctuary where voices can be heard and respected without fear of evaluation.&rdquo;
                 </blockquote>
               </div>
             </div>
@@ -327,7 +327,7 @@ export default function LandingPage() {
               Take a mindful moment for yourself today.
             </h2>
             <p style={{ color: "var(--text-muted)", maxWidth: "580px", margin: "0 auto 2rem", fontSize: "0.96rem", lineHeight: 1.6 }}>
-              Join thousands of team members using AuraWellness to check in, reflect, and stay attuned to their mental wellness.
+              Join thousands of team members using MoodMentor to check in, reflect, and stay attuned to their mental wellness.
             </p>
             <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
               <Link href="/register" id="banner-cta-register" className="btn-primary" style={{ padding: "12px 28px" }}>
@@ -353,10 +353,10 @@ export default function LandingPage() {
         <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <Heart size={16} color="#818cf8" />
-            <span style={{ fontWeight: 600, color: "var(--text-muted)" }}>AuraWellness</span>
+            <span style={{ fontWeight: 600, color: "var(--text-muted)" }}>MoodMentor</span>
           </div>
           <div>
-            © 2026 AuraWellness Inc. All rights reserved. • Privacy Policy • Terms of Service
+            © 2026 MoodMentor Inc. All rights reserved. • Privacy Policy • Terms of Service
           </div>
         </div>
       </footer>

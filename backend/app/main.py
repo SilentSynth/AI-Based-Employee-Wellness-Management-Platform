@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     await engine.dispose()
 
 app = FastAPI(
-    title="AuraWellness API",
+    title="MoodMentor API",
     description="Intelligent emotional sentiment insights and confidential reflection telemetry for employee wellness.",
     version="1.0.0",
     lifespan=lifespan,

@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "AuraWellness — Understand Team Sentiment. Support Your People.",
+  title: "MoodMentor — Understand Team Sentiment. Support Your People.",
   description: "A private, intelligent space for employees to share reflections, track emotional well-being, and build healthier workplace habits.",
 };
 
